@@ -1,0 +1,12 @@
+{
+    "name": "stefan/dom-parser",
+    "authors": [
+        {
+            "name": "Stefan",
+            "email": "stefan.miljakovic@student.um.si"
+        }
+    ],
+    "require": {
+        "paquettg/php-html-parser": "^2.0"
+    }
+}
