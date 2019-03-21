@@ -1,5 +1,10 @@
 {
     "name": "stefan/dom-parser",
+    "autoload": {
+        "psr-4": {
+            "Parser\\" : "src/"
+        }
+    },
     "authors": [
         {
             "name": "Stefan",
