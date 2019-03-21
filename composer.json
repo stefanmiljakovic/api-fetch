@@ -12,6 +12,6 @@
         }
     ],
     "require": {
-        "paquettg/php-html-parser": "^2.0"
+        "joseraul/alpha-vantage-api": "^0.0.3"
     }
 }
