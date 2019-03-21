@@ -1,9 +1,14 @@
+<script src="dist/scripts/jquery.js"></script>
+<script src="dist/scripts/main.js"></script>
 <?php
 
 include "vendor/autoload.php";
 
-$parser = new Parser\Helpers\MarketsDomParser(
-    'https://www.investing.com/indices/usdollar-historical-data');
+/** @var $service \Parser\Service\AlphaVantageService */
+global $service;
+$service = new \Parser\Service\AlphaVantageService();
 
-$parser->parseValues();
+include "inputs.php";
+
+
 

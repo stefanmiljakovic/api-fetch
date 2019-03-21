@@ -12,6 +12,7 @@
         }
     ],
     "require": {
-        "joseraul/alpha-vantage-api": "^0.0.3"
+        "joseraul/alpha-vantage-api": "^0.0.3",
+        "league/csv": "^9.2"
     }
 }

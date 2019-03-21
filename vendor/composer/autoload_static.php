@@ -11,6 +11,7 @@ class ComposerStaticInitb9c04b54a74228d42088d9394de72b8f
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '9e4824c5afbdc1482b6025ce3d4dfde8' => __DIR__ . '/..' . '/league/csv/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -18,6 +19,10 @@ class ComposerStaticInitb9c04b54a74228d42088d9394de72b8f
         array (
             'Psr\\Http\\Message\\' => 17,
             'Parser\\' => 7,
+        ),
+        'L' => 
+        array (
+            'League\\Csv\\' => 11,
         ),
         'G' => 
         array (
@@ -39,6 +44,10 @@ class ComposerStaticInitb9c04b54a74228d42088d9394de72b8f
         'Parser\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'League\\Csv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/csv/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
